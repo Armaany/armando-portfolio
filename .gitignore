@@ -1,0 +1,22 @@
+# Operating-system and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Generated or local review material
+_review/
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+*.tmp
+~$*
